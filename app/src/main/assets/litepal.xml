@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+    <dbname value = "xiaoMI_db"></dbname>
+    <version value = "1"></version>
+    <list>
+        <mapping class = "com.example.xiaomi.model.DoneThing"></mapping>
+        <mapping class = "com.example.xiaomi.model.Note"></mapping>
+        <mapping class = "com.example.xiaomi.model.NoteBook"></mapping>
+        <mapping class = "com.example.xiaomi.model.TodoBook"></mapping>
+        <mapping class = "com.example.xiaomi.model.UserInfo"></mapping>
+        <mapping class = "com.example.xiaomi.model.TodoThing"></mapping>
+    </list>
+</litepal>
