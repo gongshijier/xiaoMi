@@ -8,22 +8,42 @@
     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.xiaomi.ui.home.HomeFragment"
-        android:label="@string/title_home"
+        android:label="小秘"
         tools:layout="@layout/fragment_home" />
     <fragment
         android:id="@+id/clockFragment"
         android:name="com.example.xiaomi.ui.clock.ClockFragment"
-        android:label="clock_fragment"
+        android:label="时钟"
         tools:layout="@layout/clock_fragment" />
     <fragment
         android:id="@+id/todoFragment"
         android:name="com.example.xiaomi.ui.todolist.TodoFragment"
-        android:label="todo_fragment"
+        android:label="TODO"
         tools:layout="@layout/todo_fragment" />
     <fragment
         android:id="@+id/note"
         android:name="com.example.xiaomi.ui.note.note"
-        android:label="note_fragment"
+        android:label="便签"
         tools:layout="@layout/note_fragment" />
+    <fragment
+        android:id="@+id/devInfo"
+        android:name="com.example.xiaomi.ui.devinfo.DevinfoFragment"
+        android:label="开发者"
+        tools:layout="@layout/devinfo_fragment" />
+    <fragment
+        android:id="@+id/logRec"
+        android:name="com.example.xiaomi.ui.logrecord.LogRecFragment"
+        android:label="记录"
+        tools:layout="@layout/log_rec_fragment" />
+    <fragment
+        android:id="@+id/noteBook"
+        android:name="com.example.xiaomi.ui.notebook.NoteBookFragment"
+        android:label="便签簿"
+        tools:layout="@layout/note_book_fragment" />
+    <fragment
+        android:id="@+id/todoBook"
+        android:name="com.example.xiaomi.ui.todobook.TodoBookFragment"
+        android:label="计划本"
+        tools:layout="@layout/todo_book_fragment" />
 
 </navigation>

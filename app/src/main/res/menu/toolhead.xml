@@ -4,8 +4,8 @@
 
     <item
 
-        android:id="@+id/action_settings"
-        android:icon="@drawable/ic_home"
+        android:id="@+id/logRec"
+        android:icon="@drawable/ic_calendar"
         android:orderInCategory="100"
 
         app:showAsAction="always"

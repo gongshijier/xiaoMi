@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+
+        android:id="@+id/todoBook"
+        android:icon="@drawable/ic_todobook"
+        android:tooltipText="30sp"
+        android:title="计划本" />
+
+    <item
+        android:tooltipText="30sp"
+        android:id="@+id/noteBook"
+        android:icon="@drawable/ic_notebook"
+        android:title="便签簿" />
+
+    <item
+        android:tooltipText="30sp"
+        android:id="@+id/devInfo"
+        android:icon="@drawable/ic_devinfo"
+        android:title="关于作者" />
+
 </menu>

@@ -3,6 +3,7 @@
     package="com.example.xiaomi" >
 
     <application
+        android:name="org.litepal.LitePalApplication"
         android:allowBackup="true"
         android:icon="@drawable/ic_icon"
         android:label="@string/app_name"
