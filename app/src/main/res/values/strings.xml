@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">小秘</string>
+    <string name="title_home">Home</string>
+    <string name="title_clock">Clock</string>
+    <string name="title_todo">Todo</string>
+    <string name="title_note">Note</string>
+</resources>

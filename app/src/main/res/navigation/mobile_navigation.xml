@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.xiaomi.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/clockFragment"
+        android:name="com.example.xiaomi.ui.clock.ClockFragment"
+        android:label="clock_fragment"
+        tools:layout="@layout/clock_fragment" />
+    <fragment
+        android:id="@+id/todoFragment"
+        android:name="com.example.xiaomi.ui.todolist.TodoFragment"
+        android:label="todo_fragment"
+        tools:layout="@layout/todo_fragment" />
+    <fragment
+        android:id="@+id/note"
+        android:name="com.example.xiaomi.ui.note.note"
+        android:label="note_fragment"
+        tools:layout="@layout/note_fragment" />
+
+</navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home"
+        android:title="@string/title_home"/>
+
+    <item
+        android:id="@+id/clockFragment"
+        android:icon="@drawable/ic_clock"
+        android:title="@string/title_clock"/>
+
+    <item
+        android:id="@+id/todoFragment"
+        android:icon="@drawable/ic_todo"
+        android:title="@string/title_todo"/>
+    <item
+        android:id="@+id/note"
+        android:icon="@drawable/ic_note"
+        android:title="@string/title_note"/>
+
+</menu>
