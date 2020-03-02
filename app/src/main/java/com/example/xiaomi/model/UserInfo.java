@@ -5,7 +5,16 @@ import org.litepal.crud.DataSupport;
 public class UserInfo extends DataSupport {
     private String name;
     private String saying;
-    private  byte[] profile;
+    private  String profile;
+    private  boolean firstFlag;
+
+    public boolean isFirstFlag() {
+        return firstFlag;
+    }
+
+    public void setFirstFlag(boolean firstFlag) {
+        this.firstFlag = firstFlag;
+    }
 
     public String getName() {
         return name;
@@ -23,11 +32,11 @@ public class UserInfo extends DataSupport {
         this.saying = saying;
     }
 
-    public byte[] getProfile() {
+    public String getProfile() {
         return profile;
     }
 
-    public void setProfile(byte[] profile) {
+    public void setProfile(String profile) {
         this.profile = profile;
     }
 }

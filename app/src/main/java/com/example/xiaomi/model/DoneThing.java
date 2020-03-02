@@ -8,9 +8,9 @@ public class DoneThing extends DataSupport {
     private int id;
     private String bookName;
     private String content;
-    private Date timeStart;
+    private String timeStart;
     private double timeSpent;
-    private  Date day;
+    private  String day;
 
     public int getId() {
         return id;
@@ -36,11 +36,11 @@ public class DoneThing extends DataSupport {
         this.content = content;
     }
 
-    public Date getTimeStart() {
+    public String getTimeStart() {
         return timeStart;
     }
 
-    public void setTimeStart(Date timeStart) {
+    public void setTimeStart(String timeStart) {
         this.timeStart = timeStart;
     }
 
@@ -52,11 +52,11 @@ public class DoneThing extends DataSupport {
         this.timeSpent = timeSpent;
     }
 
-    public Date getDay() {
+    public String getDay() {
         return day;
     }
 
-    public void setDay(Date day) {
+    public void setDay(String day) {
         this.day = day;
     }
 }

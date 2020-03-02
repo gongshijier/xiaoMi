@@ -12,6 +12,14 @@ public class TodoThing extends DataSupport {
     private double timeSpent;
     private  Date day;
 
+    public String getBookName() {
+        return bookName;
+    }
+
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
+
     public int getId() {
         return id;
     }
@@ -20,13 +28,7 @@ public class TodoThing extends DataSupport {
         this.id = id;
     }
 
-    public String gettBookName() {
-        return bookName;
-    }
 
-    public void settbBookName(String tBookName) {
-        this.bookName = tBookName;
-    }
 
     public String getContent() {
         return content;

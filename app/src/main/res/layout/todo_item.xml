@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="6dp"
+    android:layout_width="match_parent"
+    android:layout_marginLeft="8dp"
+    android:layout_marginBottom="2dp"
+
+    android:layout_marginRight="8dp"
+    android:layout_height="wrap_content">
+
+    />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:padding="10dp"
+
+        android:layout_marginBottom="6dp"
+        android:paddingLeft="20dp">
+        <ImageView
+            android:id="@+id/todoBOx"
+            android:layout_width="wrap_content"
+            android:src="@drawable/ic_uncheck"
+            android:layout_height="wrap_content">
+
+        </ImageView>
+
+        <TextView
+            android:textColor="#000000"
+            android:id="@+id/todoCon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:layout_marginLeft="10dp"
+
+            />
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

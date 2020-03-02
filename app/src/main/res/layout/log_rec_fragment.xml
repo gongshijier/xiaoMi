@@ -6,13 +6,33 @@
     android:layout_height="match_parent"
     tools:context=".ui.logrecord.LogRecFragment">
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="日历记录"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="vertical"
+            app:layout_constraintVertical_bias="0"
+            app:layout_constraintHeight_percent="0.90"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <CalendarView
+
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:focusedMonthDateColor="@color/colorPrimary"
+                android:layout_height="wrap_content"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/doneLogRecy"
+                tools:listitem="@layout/log_item"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               >
+
+            </androidx.recyclerview.widget.RecyclerView>
+        </LinearLayout>
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

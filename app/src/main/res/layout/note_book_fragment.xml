@@ -3,16 +3,31 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_gravity="center"
     android:layout_height="match_parent"
     tools:context=".ui.notebook.NoteBookFragment">
 
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="便签本"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+   <com.google.android.material.floatingactionbutton.FloatingActionButton
+       android:id="@+id/addNoteBook"
+       android:layout_width="60dp"
+       android:layout_height="60dp"
+       android:clickable="true"
+       android:src="@drawable/ic_add"
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.93"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent"
+       app:layout_constraintVertical_bias="0.88" />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/noteBookRecy"
+       app:layout_constraintTop_toTopOf="parent"
+       android:layout_marginTop="80dp"
+       android:layout_width="wrap_content"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       tools:listitem="@layout/notebook_item"
+       app:layout_constraintHeight_percent="0.75"
+       android:layout_height="0dp"></androidx.recyclerview.widget.RecyclerView>
 </androidx.constraintlayout.widget.ConstraintLayout>

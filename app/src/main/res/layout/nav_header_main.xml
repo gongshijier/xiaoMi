@@ -11,6 +11,7 @@
         android:layout_height="350dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
+
             android:id="@+id/icon_image"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -30,19 +31,19 @@
             android:id="@+id/userName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gong.SJ"
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.65"></TextView>
+            app:layout_constraintVertical_bias="0.67"></TextView>
 
         <TextView
 
             android:id="@+id/userSay"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="walk slow!walk hard ! "
+            android:textColor="#000000"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

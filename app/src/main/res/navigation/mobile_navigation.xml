@@ -14,7 +14,13 @@
         android:id="@+id/clockFragment"
         android:name="com.example.xiaomi.ui.clock.ClockFragment"
         android:label="时钟"
-        tools:layout="@layout/clock_fragment" />
+        tools:layout="@layout/clock_fragment" >
+        <action
+            android:id="@+id/action_clockFragment_to_countDFragment"
+            app:destination="@id/countDFragment"
+            app:enterAnim="@anim/fragment_fade_enter"
+            app:exitAnim="@anim/fragment_fade_exit" />
+    </fragment>
     <fragment
         android:id="@+id/todoFragment"
         android:name="com.example.xiaomi.ui.todolist.TodoFragment"
@@ -24,7 +30,11 @@
         android:id="@+id/note"
         android:name="com.example.xiaomi.ui.note.note"
         android:label="便签"
-        tools:layout="@layout/note_fragment" />
+        tools:layout="@layout/note_fragment" >
+        <action
+            android:id="@+id/action_note_to_editNote"
+            app:destination="@id/editNote" />
+    </fragment>
     <fragment
         android:id="@+id/devInfo"
         android:name="com.example.xiaomi.ui.devinfo.DevinfoFragment"
@@ -39,11 +49,37 @@
         android:id="@+id/noteBook"
         android:name="com.example.xiaomi.ui.notebook.NoteBookFragment"
         android:label="便签簿"
-        tools:layout="@layout/note_book_fragment" />
+        tools:layout="@layout/note_book_fragment" >
+        <action
+            android:id="@+id/action_noteBook_to_note"
+            app:destination="@id/note" />
+    </fragment>
     <fragment
         android:id="@+id/todoBook"
         android:name="com.example.xiaomi.ui.todobook.TodoBookFragment"
         android:label="计划本"
-        tools:layout="@layout/todo_book_fragment" />
+        tools:layout="@layout/todo_book_fragment" >
+        <action
+            android:id="@+id/action_todoBook_to_todoFragment"
+            app:destination="@id/todoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countDFragment"
+        android:name="com.example.xiaomi.ui.clock.CountDFragment"
+        android:label="时钟"
+        tools:layout="@layout/count_d_fragment" >
+        <action
+            android:id="@+id/action_countDFragment_to_clockFragment"
+            app:destination="@id/clockFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editNote"
+        android:name="com.example.xiaomi.ui.editnote.EditNote"
+        android:label="编辑"
+        tools:layout="@layout/edit_note_fragment">
+        <action
+            android:id="@+id/action_editNote_to_note"
+            app:destination="@id/note" />
+    </fragment>
 
 </navigation>

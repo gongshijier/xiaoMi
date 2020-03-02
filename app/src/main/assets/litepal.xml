@@ -9,5 +9,6 @@
         <mapping class = "com.example.xiaomi.model.TodoBook"></mapping>
         <mapping class = "com.example.xiaomi.model.UserInfo"></mapping>
         <mapping class = "com.example.xiaomi.model.TodoThing"></mapping>
+        <mapping class = "com.example.xiaomi.model.LogDay"></mapping>
     </list>
 </litepal>
