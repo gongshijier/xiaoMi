@@ -19,6 +19,9 @@ import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 
 import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
+import android.os.Messenger;
 import android.os.Vibrator;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -109,7 +112,6 @@ public class ClockFragment extends Fragment {
                 }
             }
         });
-
 
 
         //开始计时
