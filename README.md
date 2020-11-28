@@ -1,4 +1,6 @@
   ![小秘——个人时间管理工具](https://upload-images.jianshu.io/upload_images/19741117-ce7c1d2a9c885742.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+  
+  技术点：LiveData MVVM DataBinding 
 ***  
 为用户提供方便使用的时间管理工具，在简洁的设计下提供以下功能：  
 * 待办事项管理  
